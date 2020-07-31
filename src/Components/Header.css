@@ -1,7 +1,7 @@
 .header {
-    display: flex;
-    justify-content: center;
-    color: #5A6B77;
-    padding: 2% 0 2% 2%;
-    font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  color: #5a6b77;
+  padding: 2% 0 2% 2%;
+  font-size: xx-large;
 }

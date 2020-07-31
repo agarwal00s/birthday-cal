@@ -1,37 +1,37 @@
-.input_area{
-    display: flex;
-    padding-top: 5%;
+.input_area {
+  display: flex;
+  padding-top: 5%;
 }
-.left_section{
-    width: 50%;
-    padding-left: 5%;
+.left_section {
+  width: 50%;
+  padding-left: 5%;
 }
 
 .right_section {
-    width: 50%;
+  width: 50%;
 }
-.year_text{
-    color: #5A6B77;
+.year_text {
+  color: #5a6b77;
 }
-.update_button{
-    background-color: #0386EF;
-    color: white;
-    font-weight: bold;
-    padding: 2% 4% 2% 4%;
-    border: none;
-    border-radius: 5px;
-    margin-top: 5%;
-    font-size: 15px;
-}
-
-.text_area{
-    width: 80%;
-    height: 350px;
+.update_button {
+  background-color: #0386ef;
+  color: white;
+  font-weight: bold;
+  padding: 2% 4% 2% 4%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5%;
+  font-size: 15px;
 }
 
-.input_year{
-    height: 2px;
-    width: 200px;
-    padding: 2%;
-    margin-top: 2%;
+.text_area {
+  width: 80%;
+  height: 350px;
+}
+
+.input_year {
+  height: 2px;
+  width: 200px;
+  padding: 2%;
+  margin-top: 2%;
 }

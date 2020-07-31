@@ -1,17 +1,19 @@
 import React from "react";
 import Day from "./Day";
-import './Cards.css';
+import "./Cards.css";
 
 const getDayOfWeek = (dayIndex) =>
-  ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"][dayIndex];
+  ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"][dayIndex];
 
 function Cards(props) {
   return (
-    <div
-      className="cards"
-    >
+    <div className="cards">
       {Object.keys(props.displayData).map((day, idx) => (
-        <Day key={idx} day={getDayOfWeek(day)} people={props.displayData[day]} />
+        <Day
+          key={idx}
+          day={getDayOfWeek(day)}
+          people={props.displayData[day]}
+        />
       ))}
     </div>
   );

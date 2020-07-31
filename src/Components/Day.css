@@ -1,32 +1,31 @@
-.card{
-    width: 200px;
-    margin: 10px;
+.card {
+  width: 200px;
+  margin: 10px;
+}
+.card_header {
+  background-color: #ab9cf0;
+  color: white;
+  text-align: right;
+  padding: 10px 15px 10px 15px;
+}
+.card_body {
+  height: 100%;
+  background-color: white;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.person {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-}
-.card_header{
-    background-color: #AB9CF0;
-    color: white;
-    text-align: right;
-    padding: 10px 15px 10px 15px;
-}
-.card_body{
-    height: 100%;
-    background-color: white;
-    height: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-}
-.person{
-    color: white;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.no_birthday{
-    height: 100%;
-    width: 100%;
+.no_birthday {
+  height: 100%;
+  width: 100%;
 }

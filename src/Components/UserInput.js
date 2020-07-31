@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./UserInput.css"
+import "./UserInput.css";
 
 function UserInput(props) {
   const [elements, setElements] = useState([]);
@@ -14,7 +14,7 @@ function UserInput(props) {
       5: [],
       6: [],
     };
-    try{
+    try {
       // eslint-disable-next-line
       const jsonObject = new Function("return " + elements)();
       jsonObject.forEach((person) => {
@@ -31,9 +31,8 @@ function UserInput(props) {
         });
       });
       props.setDisplayData(temp);
-    }
-    catch(e){
-      alert('Please Enter proper Data');
+    } catch (e) {
+      alert("Please Enter proper Data");
     }
   };
   return (
@@ -47,13 +46,14 @@ function UserInput(props) {
       <div className="right_section">
         <div className="year_text">Year</div>
         <div>
-          <input className="input_year" type="text" onChange={(e) => setDisplayYear(e.target.value)} />
+          <input
+            className="input_year"
+            type="text"
+            onChange={(e) => setDisplayYear(e.target.value)}
+          />
         </div>
         <div>
-          <button
-            className="update_button"
-            onClick={() => calcDisplayData()}
-          >
+          <button className="update_button" onClick={() => calcDisplayData()}>
             UPDATE
           </button>
         </div>
