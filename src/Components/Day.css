@@ -14,13 +14,13 @@
     background-color: white;
     height: 200px;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row wrap;
 }
 .person{
-    height: 40px;
-    width: 40px;
+    width: 30px;
     color: white;
     font-weight: bold;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;

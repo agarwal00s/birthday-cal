@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./UserInput.css"
 
 function UserInput(props) {
   const [elements, setElements] = useState([]);
@@ -39,12 +40,17 @@ function UserInput(props) {
         />
       </div>
       <div style={{ width: "50%" }}>
-        <div>Year</div>
+        <div style={{color: '#5A6B77'}}>Year</div>
         <div>
-          <input type="text" onChange={(e) => setDisplayYear(e.target.value)} />
+          <input style={{height: '2px', width: '200px', padding: '2%', marginTop: '2%'}} type="text" onChange={(e) => setDisplayYear(e.target.value)} />
         </div>
         <div>
-          <button onClick={() => calcDisplayData()}>UPDATE</button>
+          <button
+            className="update_button"
+            onClick={() => calcDisplayData()}
+          >
+            UPDATE
+          </button>
         </div>
       </div>
     </div>

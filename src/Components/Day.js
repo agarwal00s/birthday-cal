@@ -8,7 +8,7 @@ function Day(props) {
     <div className="card">
       <div className="card_header">{props.day}</div>
       <div className="card_body">
-        {props.people.sort((a,b) => a['birthDate']-b['birthDate']).map((person, idx) => {
+        {props.people.sort((a,b) => b['birthDate']-a['birthDate']).map((person, idx) => {
           return (
             <div
               className="person"
