@@ -15,6 +15,7 @@ function UserInput(props) {
       6: [],
     };
     try{
+      // eslint-disable-next-line
       const jsonObject = new Function("return " + elements)();
       jsonObject.forEach((person) => {
         let day = new Date(person.birthday);
