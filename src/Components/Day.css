@@ -1,0 +1,27 @@
+.card{
+    width: 200px;
+    margin: 25px;
+
+}
+.card_header{
+    background-color: #AB9CF0;
+    color: white;
+    text-align: right;
+    padding: 10px 15px 10px 15px;
+}
+.card_body{
+    height: 100%;
+    background-color: white;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.person{
+    height: 40px;
+    width: 40px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
