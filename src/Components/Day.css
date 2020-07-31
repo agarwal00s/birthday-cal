@@ -14,14 +14,19 @@
     background-color: white;
     height: 200px;
     display: flex;
-    flex-direction: row wrap;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
 }
 .person{
-    width: 30px;
     color: white;
     font-weight: bold;
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.no_birthday{
+    height: 100%;
+    width: 100%;
 }

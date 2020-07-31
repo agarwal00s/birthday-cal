@@ -1,5 +1,6 @@
 import React from "react";
 import Day from "./Day";
+import './Cards.css';
 
 const getDayOfWeek = (dayIndex) =>
   ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"][dayIndex];
@@ -7,11 +8,7 @@ const getDayOfWeek = (dayIndex) =>
 function Cards(props) {
   return (
     <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        flexFlow: "row wrap",
-      }}
+      className="cards"
     >
       {Object.keys(props.displayData).map((day, idx) => (
         <Day key={idx} day={getDayOfWeek(day)} people={props.displayData[day]} />
